@@ -47,7 +47,7 @@ end
     Game.main_menu = function(change_context)
 
         local ret = mainmenuref2(change_context)
-        local newcard = SMODS.create_card({key='j_OAL_HatlessRalsei',area = G.title_top})
+        local newcard = SMODS.create_card({key='j_OAL_Plushie',area = G.title_top})
         G.title_top.T.w = G.title_top.T.w * 1.7675
         G.title_top.T.x = G.title_top.T.x - 0.8
         G.title_top:emplace(newcard)
@@ -75,6 +75,7 @@ SMODS.Joker {
         }
     end,
     atlas = "RalseiSheet",
+    discovered = true,
     pos = {x = 0, y = 0}, -- This will be animated
     rarity = 1,
     cost = 3,
@@ -115,6 +116,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 0, y = 1}, -- This will be animated
     rarity = 1,
+    discovered = true,
     cost = 4,
     blueprint_compat = false,
     eternal_compat = true,
@@ -154,6 +156,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 0, y = 2}, -- This will be animated
     rarity = 1,
+    discovered = true,
     cost = 4,
     blueprint_compat = false,
     eternal_compat = true,
@@ -194,6 +197,7 @@ SMODS.Joker {
     rarity = 2,
     cost = 5,
     blueprint_compat = false,
+    discovered = true,
     eternal_compat = true,
     perishable_compat = true,
     add_to_deck = function(self, card, from_debuff)
@@ -232,6 +236,7 @@ SMODS.Joker {
     cost = 8,
     blueprint_compat = false,
     eternal_compat = true,
+    discovered = true,
     perishable_compat = true,
 calculate = function(self, card, context)
     if context.final_scoring_step and #context.scoring_hand >= 5 then
@@ -274,6 +279,7 @@ SMODS.Joker {
     rarity = 3,
     cost = 9,
     blueprint_compat = false,
+    discovered = true,
     eternal_compat = true,
     perishable_compat = true,
     calculate = function(self, card, context)
@@ -308,6 +314,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
                 if context.before then
             for _,v in ipairs(context.scoring_hand) do
@@ -342,6 +349,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     add_to_deck = function(self, card, from_debuff)
         if from_debuff == false then
         SMODS.change_voucher_limit(-1)
@@ -380,6 +388,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
         if context.repetition and context.cardarea == G.play then
             if context.other_card:is_suit('Hearts') and context.other_card:get_id() == 8 then
@@ -414,6 +423,7 @@ SMODS.Joker {
     cost = 6,
     blueprint_compat = false,
     eternal_compat = true,
+    discovered = true,
     perishable_compat = true,
     calculate = function(self, card, context)
         if context.before then
@@ -456,6 +466,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
         if context.individual and context.cardarea == G.play then
             context.other_card.ability.perma_bonus = (context.other_card.ability.perma_bonus or 0) + card.ability.extra.chips
@@ -493,6 +504,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
         if context.before then
             for _,v in ipairs(context.scoring_hand) do
@@ -534,6 +546,7 @@ SMODS.Joker {
     rarity = 3,
     cost = 10,
     blueprint_compat = false,
+    discovered = true,
     eternal_compat = true,
     perishable_compat = true,
     calculate = function(self, card, context)
@@ -578,6 +591,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
         if context.joker_main then
             if card.ability.extra.multgiven > 0 then
@@ -624,6 +638,7 @@ SMODS.Joker {
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
+    discovered = true,
     calculate = function(self, card, context)
         if context.joker_main then
             return {
@@ -651,6 +666,7 @@ SMODS.Enhancement {
         }
     end,
     atlas = 'RalseiSheet',
+    discovered = true,
     pos = {x = 2, y = 4},
     calculate = function(self, card, context)
         if context.before and context.cardarea == G.play then
@@ -682,6 +698,7 @@ SMODS.Enhancement {
         }
     end,
     atlas = 'RalseiSheet',
+    discovered = true,
     pos = {x = 3, y = 4},
         calculate = function(self, card, context)
         if context.before and context.cardarea == G.play then
@@ -700,6 +717,7 @@ SMODS.Enhancement {
 
 SMODS.Seal {
     key = "CakeSeal",
+    discovered = true,
     loc_txt = {
         name = "Cake",
         text = {
@@ -719,6 +737,7 @@ SMODS.Shader {
 
 SMODS.Edition {
     key = "Loving",
+    discovered = true,
     loc_txt = {
         name = "Love",
         text = {
