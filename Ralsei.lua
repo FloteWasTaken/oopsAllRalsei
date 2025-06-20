@@ -619,7 +619,7 @@ SMODS.Joker {
     loc_txt = {
         name = "Ralsei Plushie",
         text = {
-            "{C:mult}+32{} Mult, {X:mult,C:white}X3.2{}} Mult"
+            "{C:mult}+32{} Mult, {X:mult,C:white}X3.2{} Mult"
         }
     },
     config = {
