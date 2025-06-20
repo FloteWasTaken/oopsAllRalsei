@@ -1,0 +1,14 @@
+{
+    "id": "oopsAllRal",
+    "name": "oops! All Ralsei",
+    "author": ["Flote"],
+    "description": "oops! all Ralsei adds your favorite fluffy boy to balatro 15 times! Please do enjoy! This mod could not have been possible with out the help of N', Heaven, and others!",
+    "prefix": "OAL",
+    "main_file": "Ralsei.lua",
+    "badge_colour": "4dcc8e",
+    "priority": -31102018,
+    "dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1225a)"
+    ],
+    "version": "1.0.0"
+}
