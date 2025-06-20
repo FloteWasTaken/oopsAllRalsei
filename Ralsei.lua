@@ -76,8 +76,8 @@ SMODS.Joker {
     end,
     atlas = "RalseiSheet",
     pos = {x = 0, y = 0}, -- This will be animated
-    rarity = 2,
-    cost = 6,
+    rarity = 1,
+    cost = 3,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -114,8 +114,8 @@ SMODS.Joker {
     end,
     atlas = "RalseiSheet",
     pos = {x = 0, y = 1}, -- This will be animated
-    rarity = 2,
-    cost = 6,
+    rarity = 1,
+    cost = 4,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -153,8 +153,8 @@ SMODS.Joker {
     end,
     atlas = "RalseiSheet",
     pos = {x = 0, y = 2}, -- This will be animated
-    rarity = 2,
-    cost = 6,
+    rarity = 1,
+    cost = 4,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -192,7 +192,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 0, y = 3}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 5,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -271,8 +271,8 @@ SMODS.Joker {
     end,
     atlas = "RalseiSheet",
     pos = {x = 2, y = 3}, -- This will be animated
-    rarity = 2,
-    cost = 6,
+    rarity = 3,
+    cost = 9,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -304,7 +304,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 3, y = 3}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 5,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -338,7 +338,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 4, y = 3}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 3,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -376,7 +376,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 5, y = 3}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 5,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -452,7 +452,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 7, y = 3}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 7,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -489,7 +489,7 @@ SMODS.Joker {
     atlas = "RalseiSheet",
     pos = {x = 0, y = 4}, -- This will be animated
     rarity = 2,
-    cost = 6,
+    cost = 8,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
@@ -531,8 +531,8 @@ SMODS.Joker {
     end,
     atlas = "RalseiSheet",
     pos = {x = 0, y = 5}, -- This will be animated
-    rarity = 2,
-    cost = 6,
+    rarity = 3,
+    cost = 10,
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
