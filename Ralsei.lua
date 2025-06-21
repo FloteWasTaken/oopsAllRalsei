@@ -45,11 +45,11 @@ end
 
     local mainmenuref2 = Game.main_menu
     Game.main_menu = function(change_context)
-
         local ret = mainmenuref2(change_context)
         local newcard = SMODS.create_card({key='j_OAL_Plushie',area = G.title_top, legendary = true, edition = "e_OAL_Loving"})
         G.title_top.T.w = G.title_top.T.w * 1.7675
         G.title_top.T.x = G.title_top.T.x - 0.8
+        G.title_top.cards[1]:start_dissolve()
         G.title_top:emplace(newcard)
         newcard:start_materialize()
         newcard:resize(1.1 * 1.2)
