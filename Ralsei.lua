@@ -50,7 +50,6 @@ end
         G.title_top.T.w = G.title_top.T.w
         G.title_top.T.x = G.title_top.T.x        
         if next(SMODS.find_mod("oopsAllSusie")) then
-            G.title_top.T.w = G.title_top.T.w * 1.5
         end
         G.title_top.cards[1]:start_dissolve()
         G.title_top:emplace(newcard)
